@@ -1,2 +1,3 @@
 # Labs
-Lab Assignments for COGS 188 (AI Algorithms) at UC San Diego
+
+Here are the labs for COGS 188. Click on each folder above to access each lab assignment.
