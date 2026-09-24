@@ -63,7 +63,7 @@ class TrivialVacuumEnvironment:
         """
         assert action in self.action_space, "Invalid Action"
 
-        ...
+        # TODO: your code here
 
     def random_agent(self, agent: Agent) -> str:
         """
@@ -81,7 +81,8 @@ class TrivialVacuumEnvironment:
         >>> action = env.random_agent(agent)
         >>> assert action in env.action_space
         """
-        ...
+
+        # TODO: your code here
 
     def reflex_agent(self, agent: Agent) -> str:
         """
@@ -112,7 +113,8 @@ class TrivialVacuumEnvironment:
         >>> env.execute_action(agent, action)
         >>> assert agent.location == loc_A
         """
-        ...
+        
+        # TODO: your code here
 
     def model_based_agent(self, agent: AgentMemory) -> str:
         """
@@ -148,4 +150,5 @@ class TrivialVacuumEnvironment:
         >>> action = env.model_based_agent(agent)
         >>> assert action == 'Stay', f"agent should stay at B since both locations are clean, however your action is {action}"
         """
-        ...
+
+        # TODO: your code here
